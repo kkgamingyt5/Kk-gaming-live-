@@ -1,39 +1,128 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>KK Gaming Live</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
 body{
-background:#111;
+background:url('https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200');
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
 color:white;
-font-family:Arial;
 text-align:center;
+}
+
+.overlay{
+background:rgba(0,0,0,0.75);
+min-height:100vh;
 padding:30px;
 }
-h1{
-color:#00ff99;
-}
-.btn{
-background:#00ff99;
-color:black;
-padding:12px 20px;
-text-decoration:none;
-border-radius:8px;
+
+.logo{
+font-size:50px;
 font-weight:bold;
+color:#00ff99;
+margin-top:30px;
+text-shadow:0 0 15px #00ff99;
+}
+
+.tagline{
+font-size:20px;
+margin-top:10px;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+margin:10px;
+padding:15px 30px;
+border-radius:10px;
+text-decoration:none;
+font-size:18px;
+font-weight:bold;
+transition:0.3s;
+}
+
+.youtube{
+background:#ff0000;
+color:white;
+}
+
+.whatsapp{
+background:#25D366;
+color:white;
+}
+
+.about{
+max-width:800px;
+margin:50px auto;
+background:rgba(255,255,255,0.08);
+padding:25px;
+border-radius:15px;
+}
+
+.about h2{
+color:#00ff99;
+margin-bottom:15px;
+}
+
+.footer{
+margin-top:50px;
+padding:20px;
+font-size:14px;
 }
 </style>
 </head>
+
 <body>
 
-<h1>KK Gaming Live</h1>
+<div class="overlay">
 
-<p>Welcome to the official KK Gaming Live website.</p>
+<h1 class="logo">KK Gaming Live</h1>
 
-<p>Gaming Videos, Live Streams & Updates</p>
+<p class="tagline">
+Gaming Videos • Live Streams • Esports Updates
+</p>
 
-<a class="btn" href="#">Subscribe Now</a>
+<a class="btn youtube"
+href="https://youtube.com/@kkgamingytlive"
+target="_blank">
+📺 Subscribe on YouTube
+</a>
+
+<a class="btn whatsapp"
+href="https://wa.me/923473368959"
+target="_blank">
+💬 Chat on WhatsApp
+</a>
+
+<div class="about">
+<h2>About KK Gaming Live</h2>
+
+<p>
+Welcome to KK Gaming Live! 🎮
+<br><br>
+Watch exciting gameplay videos, live streams,
+gaming tips, tricks and esports content.
+Join our gaming community and enjoy the action.
+</p>
+</div>
+
+<div class="footer">
+© 2026 KK Gaming Live | All Rights Reserved
+</div>
+
+</div>
 
 </body>
 </html>
